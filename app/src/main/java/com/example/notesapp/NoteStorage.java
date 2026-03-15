@@ -7,13 +7,12 @@ public class NoteStorage {
     private NoteStorage(){
         notes = new ArrayList<>();
     }
-    public static NoteStorage getInstance(){
+    public static NoteStorage getInstance() {
         if (instance == null){
             instance = new NoteStorage();
         }
         return instance;
     }
-
     public ArrayList<Note> getNotes() {
         return notes;
     }
