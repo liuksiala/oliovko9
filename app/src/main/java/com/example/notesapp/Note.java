@@ -24,7 +24,7 @@ public class Note {
         int month = calendar.get(Calendar.MONTH) + 1;
         int year = calendar.get(Calendar.YEAR);
 
-        this.timeAndDate = hour + ":" + minute + " " + day + "." + month "." year;
+        this.timeAndDate = hour + ":" + minute + " " + day + "." + month "." + year;
     }
     public int getId() {
         return Id;
